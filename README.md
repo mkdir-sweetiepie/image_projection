@@ -1,11 +1,12 @@
-# image_projection
+# Image Projection
 
-## 설치과정
-1.docker 설치
-2.이미지 pull
-```
+## Installation Guide
+
+1. Install Docker
+
+2. Pull Docker image
+```bash
 docker pull mkdirsweetiepie/fisheye_projection:v4
-```
 3.실행
 ```
 xhost +local:root
