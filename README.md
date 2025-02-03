@@ -27,7 +27,8 @@ docker run --runtime=nvidia -it --gpus all --ipc=host \
 mkdirsweetiepie/fisheye_projection:v1 /bin/bash
 ```
 
-4.종료는 exit 치면되고 다시 도커 환경 들어올려면
+4. 종료는 exit 치면되고 다시 도커 환경 들어올려면
+
 alias do1="xhost +local:root && docker start ros1_noetic && docker exec -it ros1_noetic bash"
 gedit bashrc에 넣어 놓고
 do1으로 바로 들어가기
