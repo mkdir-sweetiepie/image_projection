@@ -7,8 +7,9 @@
 2. Pull Docker image
 ```bash
 docker pull mkdirsweetiepie/fisheye_projection:v4
-3.실행
 ```
+3. 실행
+```bash
 xhost +local:root
 
 docker run --runtime=nvidia -it --gpus all --ipc=host \
