@@ -24,7 +24,7 @@ docker run --runtime=nvidia -it --gpus all --ipc=host \
 --device-cgroup-rule='c 189:* rmw' \
 --device-cgroup-rule='c 188:* rmw' \
 --name ros1_noetic \
-mkdirsweetiepie/fisheye_projection:v1 /bin/bash
+mkdirsweetiepie/fisheye_projection:v4 /bin/bash
 ```
 
 4. 종료는 exit 치면되고 다시 도커 환경 들어올려면
